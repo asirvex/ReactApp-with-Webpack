@@ -4,8 +4,8 @@
   "description": "A simple React app using webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack-dev-server"
+    "start": "node server.js",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "@babel/core": "^7.3.4",
